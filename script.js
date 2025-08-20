@@ -5,7 +5,7 @@ const essais = document.getElementById("essais");
 const reinitialiser = document.getElementById("reinitialiser");
 
 let essaisCount = 0;
-let nombreMystere = Math.floor(Math.random() * 100) + 1;
+let nombreMystere = Math.floor(Math.random() * 20) + 1;
 alert("Bienvenue dans le jeu du nombre mystère ! Devinez un nombre entre 1 et 100. Vous avez 5 essais.");
 
 testButton.addEventListener("click", function () {
